@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Pizza Online - Delivery and Takeaway</title>
+    <link rel="icon"
+        href="data:image/png;base64,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">
+    <link rel="stylesheet" href="./PizzaHut.css">
+</head>
+
+<body>
+    <div class="pizza_hut">
+        <div class="pizza_hut_cont">
+            <div class="header">
+                <div class="log">
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <img height="39px"
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQY0JbeBx96X4sPlDmgPV_PqR7KHJ1AWLEhZg&s"
+                        alt="">
+                </div>
+                <div class="signIn">
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+                    <a href="https://www.pizzahut.co.in/account/otp"><b>Sign in</b></a>
+                </div>
+            </div>
+            <div class="image">
+            </div>
+            <div class="nearestHut">
+                <div class="hutBox">
+                    <div class="nearestHut">
+
+                    </div>
+                </div>
+            </div>
+            <br>
+            <br>
+            <br>
+            <div class="title">
+                <center><sup>_____________________________________________</sup><big><b> Our Most Popular Deals
+                        </b></big><sup>__________________________________________________</sup></center>
+            </div>
+            <br>
+            <div class="PopularDeals">
+                <center>
+                    <img height="350px" width="500px"
+                        src="https://api.pizzahut.io/v1/content/en-in/in-1/images/promo/melts-meal-with-pepsi-zero-sugar.ff926f59503846849f86a0de94a67279.1.jpg"
+                        alt="">
+                    <img height="350px" width="500px"
+                        src="https://api.pizzahut.io/v1/content/en-in/in-1/images/promo/hut300.25d8a775409b50ec421e1bfb74be6937.1.jpg"
+                        alt="">
+                </center>
+                <br>
+                <center>
+                    <div class="view">View all deal</div>
+                </center>
+            </div>
+            <br>
+            <br>
+            <b.,r>
+                <br>
+                <div class="footer-container">
+                    <div class="footer-content">
+                        <div class="footer-section">
+                            <h4>Order Now</h4>
+                            <a href="/menu/deals">Deals</a>
+                            <a href="/menu/pizzas">Pizza</a>
+                            <a href="/menu/sides">Sides</a>
+                            <a href="/menu/drinks">Drinks</a>
+                            <a href="/menu/desserts">Desserts</a>
+                        </div>
+                        <div class="footer-section">
+                            <h4>About</h4>
+                            <a href="/aboutus/">About Us</a>
+                            <a href="/contactlessdelivery/">Contactless Delivery</a>
+                            <a href="/nutrition/">Nutrition</a>
+                            <a href="https://jobs.pizzahut.co.in/" target="_blank">Career</a>
+                        </div>
+                        <div class="footer-section">
+                            <h4>Our Policies</h4>
+                            <a href="/privacy/">Privacy</a>
+                            <a href="/terms/">Terms & Conditions</a>
+                            <a href="https://pizzahut.responsibledisclosure.com" target="_blank">Responsible
+                                Disclosure</a>
+                            <a href="/faqs/">FAQs & Help</a>
+                        </div>
+                        <div class="footer-section">
+                            <h4>Visit Pizza Hut</h4>
+                            <a href="https://restaurants.pizzahut.co.in" target="_blank">Locate a Store</a>
+                            <a href="http://blog.pizzahut.com/" target="_blank">Global Blog</a>
+                        </div>
+                    </div>
+                    <div style="display: flex; justify-content: space-evenly;" class="footer-app-links">
+                        <a href="https://apps.apple.com/in/app/pizza-hut-india/id1597873835" target="_blank">Download
+                            our iOS app</a>
+                        <a href="https://play.google.com/store/apps/details?id=com.phdv.universal"
+                            target="_blank">Download our Google Play app</a>
+                    </div>
+                    <div style="display: flex;justify-content: space-around;" class="">
+                        <div style="display: flex; justify-self: start;" class="footer-feedback">
+                            <p>Help us in serving you better</p>
+                            <button>Give Feedback</button>
+                        </div>
+                        <div class="footer-follow">
+                            <h3>Follow us</h3>
+                            <ul>
+                                <li><a href="https://www.facebook.com/pizzahutindia" target="_blank">Facebook</a></li>
+                                <li><a href="https://twitter.com/PizzaHutIN" target="_blank">Twitter</a></li>
+                                <li><a href="https://www.instagram.com/pizzahut_india" target="_blank">Instagram</a>
+                                </li>
+                                <li><a href="https://www.youtube.com/channel/UCOBjFMnb_0rfwV0plAYXsfQ"
+                                        target="_blank">YouTube</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <center>
+                        <p>Order a delicious pizza on the go, anywhere, anytime. Pizza Hut is happy to assist you with
+                            your home delivery. <br>
+                            Every time you order, you get a hot and fresh pizza delivered at your doorstep in less than
+                            thirty minutes. <br> *T&C Apply. Hurry up and place your order now!</p>
+                        <p>© 2024 Pizza Hut India. All rights reserved. License Number: 10017011004220</p>
+                    </center>
+                    <div class="footer-logo">
+                        <center><img
+                                src="https://5.imimg.com/data5/SELLER/Default/2021/5/HZ/LO/PP/22046360/fssai-state-registration-service.jpg"
+                                alt="fsaai" /></center>
+                    </div>
+                </div>
+
+        </div>
+    </div>
+
+</body>
+
+</html>

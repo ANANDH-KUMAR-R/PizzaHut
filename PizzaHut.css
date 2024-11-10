@@ -1,0 +1,106 @@
+.pizza_hut{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    display: flex;
+    height: 55px;
+    width: 100vw;
+    align-items: center;
+    font-size: 15px;
+}
+
+.signIn>a{
+    color: grey;    
+}
+.image{
+    height: 400px;
+    width: 100vw;
+    background-image: url(https://www.pizzahut.co.in/order/images/backgrounds/in/en-IN/home-bg-lg.d0a5b94d81d4bc86010a038f2309c5b2.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: auto 100%;
+}
+.nearestHut{
+    height: 120px;
+    width: 100vw;
+    align-items: center;
+    background-color: yellowgreen;
+}
+.hutBox{
+    height: 100px;
+    width: 200px;
+    background-color: rgb(3, 3, 29);
+}
+.title{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.PopularDeals{
+    height: 400px;
+    width: 100vw;
+}
+.view{
+    height: 50px;
+    width: 1000px;
+    border-radius: 10px;
+    background-color: rgb(24, 130, 8);
+    align-content: center;
+}
+
+
+.footer-container {
+    padding: 0 250px 0 250px;
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+.footer-content, .footer-feedback, .footer-follow {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.footer-section h4, .footer-follow h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.footer-section a, .footer-follow ul li a {
+    color: white;
+    display: block;
+    margin-bottom: 5px;
+    text-decoration: none;
+}
+
+.footer-app-links a {
+    color: white;
+    margin-right: 20px;
+}
+
+.footer-feedback p, .footer-feedback button {
+    margin: 10px;
+}
+
+.footer-feedback button {
+    background-color: #444;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.footer-follow ul {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+}
+
+.footer-logo img {
+    width: 72px;
+    height: 72px;
+    background-color: white;
+    border-radius: 5px;
+}
